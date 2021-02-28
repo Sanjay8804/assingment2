@@ -1,0 +1,45 @@
+body{
+    background-color: cornsilk;
+}
+
+h1{
+    
+    border: 3px solid blue;
+    background-color:red;
+    color: darkgoldenrod;
+    font-size: 60px;
+    display: inline;
+    margin-left: 40%;
+
+}
+h1:hover{
+    text-transform: uppercase;
+    background-color: seagreen;
+    color: black;
+}
+
+p{
+    color:firebrick;
+    font-size: 25px;
+    border-top: 2px solid black;
+}
+p:hover{
+    background-color: gold;
+    text-transform: uppercase;
+    color: black;
+}
+
+p::after{
+    content: "\2706";
+    color: rgb(0, 255, 0);
+}
+p::before{
+    content: "\1F9D9";
+}
+
+h2{
+    font-size: 30px;
+    background-color: grey; 
+    position: sticky;
+    top: -1px;
+}
